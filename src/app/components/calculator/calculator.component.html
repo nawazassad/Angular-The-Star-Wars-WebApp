@@ -1,0 +1,17 @@
+<form>
+  <input
+    type="number"
+    name="distance "
+    [(ngModel)]="distance"
+    class="input-field"
+    min=" 1 "
+    placeholder=" Distance In MGLT "
+  />
+  <button
+    type=" submit "
+    class="btn"
+    (click)="getSpaceships(distance)"
+  ></button>
+</form>
+
+<p class="sub-text">{{ "HOME.calculator_value" | translate }}</p>

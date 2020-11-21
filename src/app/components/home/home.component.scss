@@ -1,0 +1,49 @@
+h1 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  line-height: 2.5em;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #feda4a;
+}
+
+// div {
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+// }
+
+// @keyframes eye-focus {
+//   from {
+//     -webkit-filter: blur(0);
+//   }
+//   to {
+//     -webkit-filter: blur(5px);
+//   }
+// }
+// @keyframes focus-shift {
+//   from {
+//     transform: scale(1);
+//   }
+//   to {
+//     transform: scale(1);
+//   }
+// }
+// $duration: 1s;
+// .landscape {
+//   background: url("../../../assets//image/star-wars-backgrounds-25.jpg");
+//   background-size: cover;
+//   background-position: center;
+//   filter: blur(0.5em);
+//   animation: eye-focus $duration ease-in infinite alternate,
+//     focus-shift $duration ease-in infinite alternate;
+// }
+// .glass {
+//   background: url("../../../assets/image/star-wars-backgrounds-25.jpg");
+//   filter: blur(0.5em);
+//   animation: eye-focus $duration ease-in infinite $duration alternate,
+//     focus-shift $duration ease-in infinite alternate;
+//   opacity: 0.1;
+// }

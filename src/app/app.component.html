@@ -1,0 +1,20 @@
+<mat-toolbar color="">
+  <img src="../assets/image/STAR_WARS.jpg" class="logo" />
+
+  <label for="">
+    <select id="x" #langselect (change)="translate.use(langselect.value)">
+      <option *ngFor="let lang of translate.getLangs()" [value]="lang">
+        {{ lang }}
+      </option>
+    </select>
+  </label>
+</mat-toolbar>
+
+<nav mat-tab-nav-bar mat-align-tabs="center">
+  <a mat-tab-link routerLink="" routerLinkActive="active"> Home </a>
+  <a mat-tab-link routerLink="/app-starships" routerLinkActive="active">
+    Star Ships
+  </a>
+</nav>
+
+<router-outlet></router-outlet>

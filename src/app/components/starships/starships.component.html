@@ -1,0 +1,18 @@
+<section
+  [ngClass]="{
+    beforeSearch: !didSearch,
+    afterSearch: didSearch
+  }"
+>
+  <div class="item">
+    <app-calculator (onSearch)="battleships = $event; didSearch = true">
+    </app-calculator>
+  </div>
+</section>
+
+<section class="section">
+  <app-display-star-ships
+    *ngFor="let battleship of battleships"
+    [battleship]="battleship"
+  ></app-display-star-ships>
+</section>
