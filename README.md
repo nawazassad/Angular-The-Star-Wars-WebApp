@@ -1,11 +1,11 @@
 
-# This project has been created using The Star Wars API (SWAPI)
+This project has been created using The Star Wars API (SWAPI)
 
-# Please install the node modules to run the project.
+Please install the node modules to run the project.
 
-# Angular Material is used in this project which can be added in the package using ' ng add @angular/material '
+Angular Material is used in this project which can be added in the package using ' ng add @angular/material '
 
-# This project also has MULTILINGUAL SUPPORT for which ngx-translate has been used which can be installed using
+This project also has MULTILINGUAL SUPPORT for which ngx-translate has been used which can be installed using
   'npm install @ngx-translate/core @ngx-translate/http-loader rxjs --save '
 
 
