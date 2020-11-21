@@ -1,3 +1,14 @@
+
+# This project has been created using The Star Wars API (SWAPI)
+
+# Please install the node modules to run the project.
+
+# Angular Material is used in this project which can be added in the package using ' ng add @angular/material '
+
+# This project also has MULTILINGUAL SUPPORT for which ngx-translate has been used which can be installed using
+  'npm install @ngx-translate/core @ngx-translate/http-loader rxjs --save '
+
+
 # Vader
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
@@ -25,7 +36,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# vader
-# vader
-# vader
-# Vader
+
